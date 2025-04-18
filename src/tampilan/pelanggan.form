@@ -7,6 +7,9 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="cc" red="ff" type="rgb"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -163,6 +166,9 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial Black" size="18" style="1"/>
         </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="DATA PELANGGAN"/>
       </Properties>
     </Component>
@@ -223,6 +229,11 @@
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
+      </Properties>
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -239,6 +250,9 @@
     </Container>
     <Component class="java.awt.Button" name="bcari">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="Cari"/>
       </Properties>
       <Events>
@@ -247,6 +261,9 @@
     </Component>
     <Component class="java.awt.Button" name="bsimpan">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="12" style="0"/>
         </Property>
@@ -258,6 +275,9 @@
     </Component>
     <Component class="java.awt.Button" name="bkeluar">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="keluar"/>
       </Properties>
       <Events>
@@ -266,6 +286,9 @@
     </Component>
     <Component class="java.awt.Button" name="bbatal">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="batal"/>
       </Properties>
       <Events>
@@ -274,6 +297,9 @@
     </Component>
     <Component class="java.awt.Button" name="bubah">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="ubah"/>
       </Properties>
       <Events>
@@ -282,6 +308,9 @@
     </Component>
     <Component class="java.awt.Button" name="bhapus">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
         <Property name="label" type="java.lang.String" value="hapus"/>
       </Properties>
       <Events>
@@ -300,6 +329,11 @@
       </Events>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="af" green="af" id="pink" palette="1" red="ff" type="palette"/>
+        </Property>
+      </Properties>
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>

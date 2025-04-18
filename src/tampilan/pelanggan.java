@@ -96,8 +96,10 @@ private DefaultTableModel tabmode;
         tblplgn = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        jLabel1.setForeground(java.awt.Color.pink);
         jLabel1.setText("DATA PELANGGAN");
 
         jLabel2.setText("ID pelanggan");
@@ -133,10 +135,13 @@ private DefaultTableModel tabmode;
 
         jLabel6.setText("Alamat");
 
+        jScrollPane1.setBackground(java.awt.Color.pink);
+
         txtalamat.setColumns(20);
         txtalamat.setRows(5);
         jScrollPane1.setViewportView(txtalamat);
 
+        bcari.setBackground(java.awt.Color.pink);
         bcari.setLabel("Cari");
         bcari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,6 +149,7 @@ private DefaultTableModel tabmode;
             }
         });
 
+        bsimpan.setBackground(java.awt.Color.pink);
         bsimpan.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         bsimpan.setLabel("simpan");
         bsimpan.addActionListener(new java.awt.event.ActionListener() {
@@ -152,6 +158,7 @@ private DefaultTableModel tabmode;
             }
         });
 
+        bkeluar.setBackground(java.awt.Color.pink);
         bkeluar.setLabel("keluar");
         bkeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,6 +166,7 @@ private DefaultTableModel tabmode;
             }
         });
 
+        bbatal.setBackground(java.awt.Color.pink);
         bbatal.setLabel("batal");
         bbatal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,6 +174,7 @@ private DefaultTableModel tabmode;
             }
         });
 
+        bubah.setBackground(java.awt.Color.pink);
         bubah.setLabel("ubah");
         bubah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,6 +182,7 @@ private DefaultTableModel tabmode;
             }
         });
 
+        bhapus.setBackground(java.awt.Color.pink);
         bhapus.setLabel("hapus");
         bhapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,6 +202,8 @@ private DefaultTableModel tabmode;
                 txtcariKeyPressed(evt);
             }
         });
+
+        jScrollPane2.setBackground(java.awt.Color.pink);
 
         tblplgn.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
