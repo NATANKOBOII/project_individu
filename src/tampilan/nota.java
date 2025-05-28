@@ -26,8 +26,8 @@ public class nota extends javax.swing.JFrame {
     public nota() {
         initComponents();
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-//        String id = UserID.getIdTeknisi();
-//        jlabelID.setText(id);
+       String id = UserID.getidTeknisi();
+        jlabelID.setText(id);
         kosong();
         aktif();
         autonumber();
@@ -41,7 +41,7 @@ public class nota extends javax.swing.JFrame {
             Statement stat = conn.createStatement();
             ResultSet hasil = stat.executeQuery(sql);
             if (hasil.next()) {
-                jlabelNamaKasir.setText(hasil.getString("nama_kasir"));
+                jlabelNamaKasir.setText(hasil.getString("nm_kasir"));
             }
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "data gagal dipanggil" + e);
@@ -225,6 +225,8 @@ public class nota extends javax.swing.JFrame {
         jlabelNamaKasir.setForeground(new java.awt.Color(255, 255, 255));
         jlabelNamaKasir.setText("----");
 
+        bsimpan.setBackground(new java.awt.Color(255, 204, 204));
+        bsimpan.setForeground(new java.awt.Color(0, 51, 51));
         bsimpan.setText("SIMPAN");
         bsimpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -285,6 +287,7 @@ public class nota extends javax.swing.JFrame {
             }
         });
 
+        btambah_barang.setBackground(new java.awt.Color(255, 204, 204));
         btambah_barang.setText("TAMBAH");
         btambah_barang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -292,6 +295,7 @@ public class nota extends javax.swing.JFrame {
             }
         });
 
+        bcaribarang.setBackground(new java.awt.Color(255, 204, 204));
         bcaribarang.setText("CARI");
         bcaribarang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -398,6 +402,7 @@ public class nota extends javax.swing.JFrame {
 
         jtgl.setModel(new javax.swing.SpinnerDateModel());
 
+        bbatal.setBackground(new java.awt.Color(255, 204, 204));
         bbatal.setText("BATAL");
         bbatal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -405,6 +410,7 @@ public class nota extends javax.swing.JFrame {
             }
         });
 
+        bkeluar.setBackground(new java.awt.Color(255, 204, 204));
         bkeluar.setText("KELUAR");
         bkeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -463,6 +469,7 @@ public class nota extends javax.swing.JFrame {
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Alamat");
 
+        bcaripel3.setBackground(new java.awt.Color(255, 204, 204));
         bcaripel3.setText("CARI");
         bcaripel3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -532,6 +539,7 @@ public class nota extends javax.swing.JFrame {
         ));
         jScrollPane5.setViewportView(tbl_transaksi);
 
+        bhapus.setBackground(new java.awt.Color(255, 204, 204));
         bhapus.setText("HAPUS");
         bhapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
